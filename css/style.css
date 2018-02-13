@@ -1,0 +1,227 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+::selection {
+    color: #333333;
+    background-color: #fed136;
+}
+
+.btn-primary {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    background-color: #fed136;
+    border-color: #fed136;
+}
+
+.btn-primary:hover {
+    background-color: #dbab0a!important;
+    border-color: #dbab0a!important;
+}
+
+.btn-primary:active {
+    background-color: #dbab0a!important;
+    border-color: #dbab0a!important;
+    box-shadow: 0 0 0 .2rem rgba(254, 209, 55, .5)!important;
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 .2rem rgba(254, 209, 55, .5)!important;
+    outline: none;
+}
+
+.btn-xl {
+    font-size: 18px;
+    padding: 20px 40px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+
+.section_heading {
+    font-size: 40px;
+    font-family: 'Montserrat';
+    text-transform: uppercase !important;
+    margin-bottom: 15px;
+}
+
+.section_subheading {
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* Heading Section */
+
+#heading {
+    background-image: url("../img/header-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 90px 0;
+}
+
+.navbar {
+    background-color: transparent;
+    padding: 15px 20.3%;
+}
+
+.navbar-brand {
+    font-family: 'Kaushan Script';
+    font-size: 1.75em;
+    color: #fed136;
+    transition: color 0.3s;
+}
+
+.navbar-brand:hover {
+    color: #dbab0a;
+}
+
+.navbar .nav-item {
+    padding: 5px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+}
+
+.navbar .nav-item a {
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.navbar .nav-item:hover a {
+    color: #fed136;
+}
+
+#intro {
+    padding: 90px 0;
+}
+
+#heading .section_subheading {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 25px;
+}
+
+#heading .section_heading {
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 25px;
+}
+
+
+/* Services Section */
+
+#services {
+    padding: 100px 0;
+}
+
+#services .card {
+    border: none;
+}
+
+#services .card-icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #fed136;
+    line-height: 120px;
+    font-size: 50px;
+}
+
+
+/* Portfolio Section */
+
+#portfolio {
+    background-color: #f8f9fa!important;
+    padding: 100px 0;
+}
+
+#portfolio .card {
+    border: none;
+}
+
+#portfolio .port_hover {
+    position: relative;
+}
+
+#portfolio .port_overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #fed136;
+    opacity: 0.75;
+    display: none;
+    cursor: pointer;
+}
+
+#portfolio .port_hover i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    line-height: 60px;
+    color: white;
+    display: none;
+    cursor: pointer;
+}
+
+
+/* About Section */
+
+#about {
+    padding: 100px 0;
+}
+
+#about .timeline {
+    list-style-type: none;
+}
+
+#about .timeline::before {
+    content: "";
+    width: 2px;
+    background-color: #e9ecef;
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#about .timeline .timeline_body {
+    width: 42.5%;
+    margin-bottom: 75px;
+}
+
+#about .timeline .timeline_body.right {
+    margin-right: 41px;
+}
+
+#about .timeline .timeline_title {
+    display: inline-block;
+}
+
+#about .timeline .timeline_body .timeline_text {
+    max-width: 500px;
+    display: inline-block;
+}
+
+#about .timeline .timeline_img {
+    width: 11%;
+    display: inline-block;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+#about .timeline .timeline_img img {
+    width: 100%;
+    border: 4px solid #e9ecef;
+    border-radius: 50%;
+}
